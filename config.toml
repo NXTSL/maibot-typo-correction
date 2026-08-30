@@ -1,0 +1,6 @@
+[plugin]
+config_version = "0.1.0"
+enabled = true
+probability = 0.10
+recall_delay_ms = 800
+max_chars = 120

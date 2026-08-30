@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "id": "nxtsl.typo-correction",
+  "version": "0.1.0",
+  "name": "概率性自纠错",
+  "description": "低概率先发短暂错字，撤回后发送正确文本。",
+  "author": {"name": "NXTSL", "url": "https://example.com/nxtsl/typo-correction"},
+  "license": "MIT",
+  "host_application": {"min_version": "1.0.0", "max_version": "99.99.99"},
+  "sdk": {"min_version": "2.0.0", "max_version": "2.99.99"},
+  "dependencies": [],
+  "capabilities": ["api.call"],
+  "urls": {
+    "repository": "https://example.com/nxtsl/typo-correction",
+    "homepage": "https://example.com/nxtsl/typo-correction",
+    "documentation": "https://example.com/nxtsl/typo-correction",
+    "issues": "https://example.com/nxtsl/typo-correction/issues"
+  },
+  "i18n": {"default_locale": "zh-CN"},
+  "plugin_type": "feature"
+}
